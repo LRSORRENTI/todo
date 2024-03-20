@@ -5,12 +5,12 @@
 }
 
 #title-wrap {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 #title-wrap p {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -20,21 +20,27 @@ h1 {
 }
 
 #input {
-    width: 8rem;
 }
 
 #submitBtn {
-    background-color: red;
+}
+
+#submitBtn:hover {
+  cursor: pointer;
 }
 
 .to-do-wrap {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .to-do-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  border: 2px solid indigo;
+  width: 100px;
+  margin: auto;
 }
 
 .to-do-item button {

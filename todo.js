@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const deleteBtn = document.createElement('button'); // Create a new button element for deleting the to-do
-        deleteBtn.textContent = 'Delete'; // Set the button text to 'Delete'
+        deleteBtn.textContent = 'del'; // Set the button text to 'Delete'
         deleteBtn.addEventListener('click', () => { // Add an event listener to delete the to-do item
             newTodo.remove(); // Remove the to-do item from the DOM
             storedTodos.splice(storedTodos.indexOf(text), 1); // Remove the to-do from the stored array

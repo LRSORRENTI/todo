@@ -27,13 +27,15 @@ h1 {
   height: 25px;
   border: 3px solid #e5e5e5;
   -webkit-transition: 0.5s;
-  transition: 0.5s;
+  transition: 0.8s;
   outline: none;
   border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 #input[type="text"]:focus {
   border: 3px solid #ccc;
+  box-shadow: none;
 }
 #submitBtn {
   height: 29.5px;
@@ -42,10 +44,13 @@ h1 {
   padding-right: 5px;
   border: 3px solid #e5e5e5;
   background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: 0.5s;
 }
 
 #submitBtn:hover {
   cursor: pointer;
+  box-shadow: none;
 }
 
 .to-do-wrap {

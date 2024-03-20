@@ -62,9 +62,21 @@ h1 {
 .to-do-item {
   display: flex;
   justify-content: space-between;
-  border: 2px solid indigo;
+  border: 3px solid #e5e5e5;
+  border-radius: 4px;
   margin: auto;
-  width: 430px;
+  max-width: auto;
+  text-align: center;
+  margin-top: 5px;
+  letter-spacing: 5px;
+  max-width: 420px;
+}
+
+.to-do-item p {
+  color: #a2a2a2;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
 }
 
 .to-do-item button {
@@ -81,4 +93,5 @@ p:hover {
 }
 .completed {
   text-decoration: line-through;
+  text-decoration-color: red;
 }
